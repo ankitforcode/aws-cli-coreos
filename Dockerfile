@@ -2,6 +2,7 @@ FROM alpine:latest
 
 RUN apk add --update \
     python \
+    curl \
     py2-pip && \
     adduser -D aws
 
