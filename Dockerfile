@@ -3,6 +3,7 @@ FROM alpine:latest
 RUN apk add --update \
     python \
     curl \
+    jq \
     py2-pip && \
     adduser -D aws
 
